@@ -1,0 +1,25 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+background-color: black;
+font-style: italic;
+}
+
+.btn-warning:hover {
+    background-color: crimson;
+}
+
+canvas {
+    animation-name: nice;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nice {
+
+    from {box-shadow: 15px 15px 120px aqua;}
+    to {box-shadow: 15px 15px 120px blue;}
+
+}
